@@ -64,7 +64,15 @@ while True:
         action = np.array([0.44, 0.0])
 
     ### AGREGAR MÁS COMPORTAMIENTOS ###
-
+    if key == ord('a'):
+        action = np.array([0.22,0.44])
+    if key == ord('s'):
+        action = np.array([-0.44, 0.0])
+    if key == ord('d'):
+        action = np.array([0.22, -0.44])
+    ###TURBO###
+    if key == ord(' '):
+    	action = np.array([0.88, 0.0]) # creo que funciona solo hacia adelante
 
 
     # Se ejecuta la acción definida anteriormente y se retorna la observación (obs),
