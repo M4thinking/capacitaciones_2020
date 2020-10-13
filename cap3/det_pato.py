@@ -86,7 +86,6 @@ if __name__ == '__main__':
 
         ### CÓDIGO DE DETECCIÓN POR COLOR ###
 
-
         #Transformar imagen a espacio HSV
         image_hsv = cv2.cvtColor(obs, cv2.COLOR_RGB2HSV)
         #cv2.imshow('filtrado',cv2.cvtColor(image_hsv,cv2.COLOR_HSV2RGB))
